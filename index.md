@@ -1,5 +1,6 @@
---
+---
 layout: default
---
+title: Home page
+---
 
-Contenu
+Page d'acceuil
