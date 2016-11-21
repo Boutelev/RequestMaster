@@ -13,7 +13,6 @@ Sur ce site, on parlera plutôt des CMS en tant qu’applications web, donc de l
 * Joomla!
 * Drupal
 * Prestashop
-* Jenkill ,, Not a CMS
 
 | CMS  | Première Version  | Version  | Prix  |
 |---|---|---|---|
@@ -21,6 +20,5 @@ Sur ce site, on parlera plutôt des CMS en tant qu’applications web, donc de l
 | Joomla! | 2005  | 3.6  | Gratuit  |
 | Drupal | 2001  | 8.1  |  Gratuit |
 | Prestashop |  2005 | 1.6  | Gratuit  |
-| Jekyll | 2008  | 3.2  | Gratuit  | 
-Jekyll Not a CMS
+
 
