@@ -282,13 +282,3 @@ Maintenant, nous avons besoin d’inclure ce fragment de navigation dans notre l
 Maintenant que nous disposons de quelques pages, il est temps de pousser nos modifications vers GitHub. Nous pouvons faire ça exactement de la même façon qu’avant. Vérifiez votre URL spéciale GitHub (votre-nomutilisateur.github.io/votre-nom-projet) et vous devriez voir votre site fonctionner.
 
 Si vous quittez le Terminal, n’oubliez pas de lancer jekyll serve --watch à partir du répertoire la prochaine fois que vous voudrez travailler sur les fichiers.
-
-Prochaines étapes
-Maintenant que nous connaissons les fondamentaux de la création de templates Jekyll et que nous savons les publier sous forme de Pages GitHub, nous pouvons nous amuser à ajouter plus de pages et améliorer le style.
-
-image
-
-Je n’ai utilisé Jekyll que depuis quelques semaines, essentiellement pour du prototypage. C’est vraiment bien comme système de gestion de contenus pour les blogs, et beaucoup de personnes hébergent leurs blogs Jekyll sur GitHub, comme celui de Harry Roberts
-
-By hosting the code so openly it will make me take more pride in it and allow me to work on it much more easily; no excuses now!
-Pour finir, la documentation officielle de Jekyll est un peu éparse et plus ciblée sur les blogs que les autres sites, mais au fur et à mesure que les gens découvriront ses avantages, je suis certaine qu’elle s’améliorera au fil du temps.
