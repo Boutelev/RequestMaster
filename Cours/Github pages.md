@@ -30,13 +30,16 @@ La première chose que nous allons faire sera de créer un nouveau dépôt GitHu
 
 Après avoir installé le dépôt sur le site web de GitHub, je l’ai cloné sur mon ordinateur à l’intérieur de mon répertoire Sites en utilisant l’app GitHub (si vous voulez, vous pouvez le cloner ailleurs). Désormais, j’ai un dépôt local sur mon ordinateur synchronisé avec le dépôt distant sur GitHub.
 
-Naviguer vers le dépôt
+### Naviguer vers le dépôt
+
 Ouvrons maintenant la ligne de commande et naviguons vers le dépôt local. Le moyen le plus facile de faire ça dans le Temrinal, c’est de taper cd, puis de glisser/déposer le dossier à l’intérieur de la fenêtre de temrinal et presser la touche Entrée. Vous pouvez vous référer à l’illustration GIF de Chris Coyier qui décrit la même chose dans son article de la semaine dernière sur 24 ways “Grunt for People Who Think Things Like Grunt are Weird and Hard” (article excellent).
 
 Bon, pour moi, cela donne…
 
 $ cd /Users/Anna/Sites/christmas-recipes 
-Créer une branche spéciale sur Pages GitHub
+
+#### Créer une branche spéciale sur Pages GitHub
+
 Parvenus à ce stade, nous n’avons rien fait d’autre que d’installer un dépôt normal. Mais c’est le moment où les choses changent.
 
 Maintenant que nous sommes au bon endroit, créons une branche gh-pages. Ceci dit à GitHub que c’est une branche spéciale, et de traiter les contenus qui sont dedans différemment.
@@ -50,10 +53,8 @@ Si tout se passe bien, nous recevrons un message indiquant Switched to a new bra
 
 Vous pourriez recevoir un message d’erreur vous disant que vous n’avez pas les privilèges d’admin, et si tel était le cas vous devrez taper sudo au début de cette commande.
 
-Faire de gh-pages votre branche par défaut (optionnel)
+### Faire de gh-pages votre branche par défaut (optionnel)
 La branche gh-pages est distincte de la branche master, mais par défaut, la banche master est celle qui s’affichera si nous allons sur notre URL de dépôt sur GitHub. Pour modifier ça, allez aux “settings” du repository et sélectionnez gh-pages comme branche par défaut.
-
-image
 
 Si comme moi, vous ne voulez qu’une branche unique, vous pouvez effacer la branche master en suivant le tutoriel de Oli Studholme. En pratique c’est vraiment très facile à faire, et cela signifie que vous n’aurez plus qu’à vous soucier de maintenir une seule branche à jour.
 
@@ -61,14 +62,10 @@ Si vous préférez travailler à partir de master mais pousser les mises à jour
 
 À ce stade, nous n’avons fait que recevoir cette branche sur la machine locale, et elle est vide. Par conséquent, afin de voir quelque chose sur notre URL spéciale des Pages GitHub, nous devrons créer une page et la pousser vers le dépôt distant.
 
-Produire une page
+### Produire une page
 Ouvrez votre éditeur de texte préféré, créez un fichier intitulé index.html dans votre répetoire christmas-recipes, et déposez-y un peu de texte savoureux. Pas d’inquiétude sur le marquage : tout ce dont nous avons besoin, c’est d’un peu de texte parce qu’à cette heure nous voulons simplement vérifier que ça fonctionne.
 
-image
-
 Maintenant, committons et poussons nos modifications. Vous pouvez faire ça à la ligne de commande si vous êtes à l’aise, ou passer par l’app GitHub. N’oubliez pas d’ajouter un message utile au présent de commit.
-
-image
 
 Maintenant nous sommes prêts pour voir notre magnifique site tout neuf ! Allez sur votre-nomutilisateur.github.io/votre-nom-projet, et je l’espère, vous devriez voir votre premier site GitHub Pages. Si tel n’était pas le cas, pas de panique, cela peut prendre jusqu’à dix minutes pour la publication, aussi vous pourriez vous préparer un mug de brownies fondant pendant l’attente.
 
@@ -76,14 +73,16 @@ Après cette petite pause, notre page devrait être en vie ! J’espère que ça
 
 Si vous vous sentez courageux, que dire de passer au niveau suivant…
 
-Paramétrer Jekyll
+### Paramétrer Jekyll
+
 Parce que GitHub Pages ne sait pas exécuter des langages comme PHP, nous devons lui donner des fichiers HTML statiques. C’est bien s’il n’y a que peu de pages, mais nous allons bientôt manquer de choses comme les includes PHP pour répéter le contenu sur chaque page, comme les en-têtes et pieds de pages.
 
 Jekyll facilite l’installation de gabarits et les transforme en HTML statique. Il sépare le marquage du contenu et facilite énormément l’édition de pages collaboratives. Avec notre site de recettes, nous voulons faire en sorte que ce soit très facile pour ls personnes de corriger les erreurs de typo ou ajouter des notes, sans voir à comprendre le PHP. Le dernier avantage c’est que les pages statiques se chargent vraiment très vite.
 
 Jekyll n’est pas supporté officiellement par Windows, mais il est toujours possible de le faire tourner si vous êtes prêts à mettre les mains dans le cambouis.
 
-Installer Jekyll
+### Installer Jekyll
+
 De retour dans le Terminal, nous allons installer Jekyll…
 
 $ gem install jekyll
