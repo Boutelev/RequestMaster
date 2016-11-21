@@ -10,22 +10,23 @@ Le service des Pages GitHub accepte le HTML mais ne sait pas exécuter des langa
 Le principal avantage de Pages GitHub, c’est sa facilité de collaboration. Les modifications que vous produisez dans le dépôt sont automatiquement synchronisées. Si votre site est hébergé sur GitHub, il est donc mis à jour simultanément avec votre dépôt GitHub. C’est ce qui me séduit, parce que quand je veux démarrer rapidement un truc, je ne tiens pas à m’encombrer avec l’hébergement ; et quand les gens
 proposent une pull request, je veux simplement que cette modification soit visible dès que je la fusionne et ce, sans avoir à bidouiller des web hooks.
 
-Avant de démarrer
+### Avant de démarrer
+
 Si vous avez déjà utilisé GitHub, si vous disposez d’un compte et connaissez les fondamentaux comme savoir démarrer un nouveau dépôt et le cloner sur votre ordinateur, vous êtes prêts à partir. Si ce n’est pas le cas, je vous recommande de vous familiariser avec ça. Le site GitHub a une documentation très complète pour savoir comment démarrer, et si vous n’êtes pas un féru de la ligne de commande, les apps officielles de GitHub pour Mac et Windows sont vraiment géniales.
 
 J’ai aussi trouvé que ce tutoriel réalisé par Thinkful sur les Pages GitHub était vraiment utile : il contient tous les détails pour transformer un dépôt existant en un site Pages GitHub.
 
 Même si ce qui suit comprend un peu d’utilisation de la ligne de commande, je vous guiderai sur les fondamentaux.
 
-Installer Pages GitHub
+### Installer Pages GitHub
+
 Pour les besoins de cette démo, nous allons construire un site de recettes de Noël - rien de complexe, juste un endroit pour stocker des recettes que nous pourrons partager avec des gens. Et ces personnes pourront les forker ou suggérer des modifications à celles qu’elles aiment. Mon nom d’utilisateur GitHub est maban, et le projet que j’ai installé s’appelle christmas-recipes. Ainsi, après avoir démarré GitHub Pages, le site peut être trouvé ici : http://maban.github.io/christmas-recipes/.
 
 Vous pouvez paramétrer un nom de domaine personnalisé, mais par défaut l’URL de votre site sur GitHub Pages est votre-nomutilisateur.github.io/votre-nom-de-projet.
 
-Installer le Dépôt (repository)
-La première chose que nous allons faire sera de créer un nouveau dépôt GitHub, exactement de la même façon qu’un dépôt normal, puis nous le clonerons sur l’ordinateur. Donnons-lui le nom recettes-noel. Rien à l’intérieur pour le moment, mais tout va bien.
+#### Installer le Dépôt (repository)
 
-image
+La première chose que nous allons faire sera de créer un nouveau dépôt GitHub, exactement de la même façon qu’un dépôt normal, puis nous le clonerons sur l’ordinateur. Donnons-lui le nom recettes-noel. Rien à l’intérieur pour le moment, mais tout va bien.
 
 Après avoir installé le dépôt sur le site web de GitHub, je l’ai cloné sur mon ordinateur à l’intérieur de mon répertoire Sites en utilisant l’app GitHub (si vous voulez, vous pouvez le cloner ailleurs). Désormais, j’ai un dépôt local sur mon ordinateur synchronisé avec le dépôt distant sur GitHub.
 
