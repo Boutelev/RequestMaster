@@ -1,0 +1,8 @@
+- nom: Dupond Mathias
+  hobbies: Hockey sur glace
+  cursus: Bac littéraire
+  motivation: devenir journaliste
+  avatar: ../assets/images/myAvatar.png
+  amis:
+    - ami1: John brick
+    - ami2: Manuel Truelle

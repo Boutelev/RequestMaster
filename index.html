@@ -1,0 +1,17 @@
+---
+title: Accueil
+layout: default
+---
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+    <p>Bienvenue !</p>
+
+    {% for post in site.posts %}
+          <a href="{{post.url}}" >{{ post.title }}</a>
+    {% endfor %}
+ 
+
+{% for cours in site.cours %}
+    <a href="{{cours.url}}" >{{ cours.title }}</a>
+{% endfor %}

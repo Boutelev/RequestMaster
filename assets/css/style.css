@@ -1,16 +1,6 @@
-@charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0; }
-
-body, ul {
-  list-style-type: none; }
-
-header {
-  background: url("../img/banniere.jpg") fixed;
-  background-size: cover;
-  /*image prend toute la largeur de la page sans se déformer */ }
-
-main, .wrapper {
-  max-width: 45em;
-margin: auto; }
+html, body{ 
+     margin:0;
+  padding:0;
+    background-image: url("../images/fond.jpg") no-repeat center fixed;
+     background-size: cover;
+}
