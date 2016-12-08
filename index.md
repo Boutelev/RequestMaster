@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home page
+title: Accueil
+navigation_weight: 1
 ---
 
-Page d'acceuil
+contenu

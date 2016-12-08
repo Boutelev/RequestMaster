@@ -1,7 +1,5 @@
 ---
 layout: page
-title: L'équipe
+title: Equipe
+navigation_weight: 3
 ---
-
-Test équipe :
-Trump, Clinton

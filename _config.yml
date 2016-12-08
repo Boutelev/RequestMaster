@@ -1,3 +1,10 @@
-charset: UTF-8
-title: RequestMaster
-description: Test page acceuil
+title: Ma première page Github
+
+collections:
+  cours:
+    output: true
+
+defaults:
+  
+    scope:
+layout: page

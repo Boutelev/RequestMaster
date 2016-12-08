@@ -1,10 +1,11 @@
-<header>
-    <h1>{{site.title}}</h1>
-    <h2>{{page.subtitle}}</h2>
-    <p>{{site.description}}</p>
-    <hr>
-    <nav>
-        <ul> {% for page in site.page}
-            <li><a href="page.url">{{page.title}}</a></li> {% endfor%} </ul>
-    </nav>
-</header>
+<div class="wrapper">
+  <h1>Bienvenue</h1>
+  <nav class="main-nav">
+    <ul> {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %} {% for p in navigation_pages %} {% if p.navigation_weight %}
+      <li> <a href="{{ p.url }}" {% if p.url==p age.url %}class="active" {% endif %}>
+                {{ p.title }}
+              </a> </li> {% endif %} {% endfor %}
+      <!--boucle-->
+    </ul>
+  </nav>
+</div>
